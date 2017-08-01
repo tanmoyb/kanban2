@@ -11,11 +11,13 @@ class Card extends Component {
 
   render() {
     let cardDetails;
+    console.log("showDetails",this.state.showDetails);
+    console.log("toggle",this.props.taskCallbacks);
     if (this.state.showDetails) {
       cardDetails = (
         <div className="card__details">
           {this.props.description}
-          <CheckList cardId={this.props.id} tasks={this.props.tasks} />
+          <CheckList cardId={this.props.id} tasks={this.props.tasks} taskCallbacks= {this.props.taskCallbacks} />
         </div>
       );
     };

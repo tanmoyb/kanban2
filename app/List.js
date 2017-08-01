@@ -8,7 +8,8 @@ class List extends Component {
       return <Card id={card.id}
                    title={card.title}
                    description={card.description}
-                   tasks={card.tasks} />
+                   tasks={card.tasks}
+                   taskCallbacks= {this.props.taskCallbacks}   />
     });
 
     return (
