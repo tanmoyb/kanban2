@@ -24,6 +24,11 @@ ul {
   padding: 0;
   margin: 0;
 }
+input {
+  padding: 5px;
+  width: 120px;
+  margin-top: 10px;
+}
 
 .app {
   white-space: nowrap;
@@ -89,4 +94,13 @@ ul {
   display: inline-block;
   color: #d66;
   content: "✖";
+}
+.item {
+
+  background-color: #efefef;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 1px;
+  padding: 8px 12px;
+  width: 120px;
 }

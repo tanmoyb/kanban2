@@ -22,9 +22,7 @@ class KanbanBoardContainer extends Component {
 
  }
 
- deleteTask(cardId, taskId, taskIndex){
 
- }
 
  toggleTask(cardId, taskId, taskIndex){
 
